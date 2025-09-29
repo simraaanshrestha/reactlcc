@@ -141,14 +141,15 @@
   .dz-search{ grid-area: search; height: 42px; }
   .dz-cart{ grid-area: cart; justify-self: end; }
 } */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-.nav{
+
+.nav {
   background-color: orangered;
-  color:white;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,28 +158,32 @@
   height: 13vh;
   padding: 2%;
 }
-.nav-links ul{
+
+.nav-links ul {
   display: flex;
   gap: 20px;
   list-style: none;
   margin-left: 200px;
   margin-right: 50px;
-  
+
 }
-a{
+
+a {
   color: white;
   font-size: 13px;
   text-decoration: none;
 }
 
-.daraz a{
+.daraz a {
   font-size: 40px;
 }
-.daraz1{
+
+.daraz1 {
   width: 50%;
   margin-top: 50px;
 }
-input{
+
+input {
   width: 70%;
   height: 5vh;
   margin-left: -100px;
@@ -188,8 +193,10 @@ input{
   margin-top: 15px;
 
 }
-.product-card{
-  max-width: 350px;
+
+.product-card {
+  /* max-width: 350px; */
+  width: 350px;
   border: 1px solid #ddd;
   border-radius: 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -199,16 +206,19 @@ input{
   transition-duration: 0.4s;
   /* display: flex; */
 }
-.product-card:hover{
+
+.product-card:hover {
   transform: scale(1.1);
 }
-h3{
+
+h3 {
   color: orangered;
   font-size: 30px;
   margin-left: 20px;
   margin-top: 20px;
 }
-button{
+
+button {
   color: red;
   background-color: white;
   border: 1px solid orangered;
@@ -219,57 +229,66 @@ button{
   margin-top: 20px;
 
 }
-button:hover{
+
+button:hover {
   transform: scale(1.1);
 }
-.app-container{
+
+.app-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 50px;
 }
 
-hr{
+hr {
   border: 0.5px solid black;
   display: block;
   margin-top: 20px;
 }
-h1{
+
+h1 {
   padding: 1%;
   margin-top: 50px;
   font-size: 40px;
   margin-left: 20px;
 }
-#products{
+
+#products {
   display: flex;
   gap: 70%;
 }
-.abs{
+
+.abs {
   position: relative;
 }
-.icon{
+
+.icon {
   position: absolute;
   left: 505px;
   background-color: #FFE1D2;
   bottom: 0px;
   color: orangered;
   width: 40px;
-  height: 47px;;
+  height: 42px;
+  ;
   /* color: black; */
 }
-.search{
+
+.search {
   font-size: 30px;
   margin-top: 7px;
   margin-left: 5px;
 }
-.cart{
+
+.cart {
   margin-left: 10px;
   font-size: 32px;
   margin-bottom: -8px;
   /* margin-top: 10px; */
 }
-.img-container{
-   width: 80%;
-   margin-left: 150px;
-    margin-top: -20px;
-}
 
+.img-container {
+  width: 80%;
+  margin-left: 150px;
+  margin-top: -20px;
+}

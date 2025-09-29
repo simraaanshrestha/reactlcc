@@ -10,7 +10,7 @@ const Live = () => {
   return (
     <div className='img-container'>
       <br />
-      <Swiper
+      <Swiper style={{marginLeft: "auto", marginRight:"auto"}}
         modules={[Pagination, Navigation]}
         navigation={true}
         pagination={true} 
@@ -37,7 +37,7 @@ const Live = () => {
         </SwiperSlide>
       </Swiper>
 
-      <img src="https://img.lazcdn.com/us/domino/bcd53d9b-ab97-4e60-b729-a1270ab5f06a_NP-1188-140.gif_2200x2200q80.gif_.webp" alt="" className="live" style={{ marginLeft: "150px" }} />
+      <img src="https://img.lazcdn.com/us/domino/bcd53d9b-ab97-4e60-b729-a1270ab5f06a_NP-1188-140.gif_2200x2200q80.gif_.webp" alt="" className="live" style={{ marginLeft: "auto", marginRight:"auto" }} />
     </div>
   )
 }
